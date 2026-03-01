@@ -1,5 +1,24 @@
 
+/* Chrome, Safari, Edge */
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+/* IE, Edge */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+ /* */
